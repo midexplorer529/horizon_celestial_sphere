@@ -1,5 +1,5 @@
 % horizon_celestial_sphere fonksiyonu
 function horizon_celestial_sphere(altitude,azimuth)
 create_sphere_horizon
-object_on_sphere(altitude,azimuth)
+object_on_sphere_horizon(altitude,azimuth)
 end

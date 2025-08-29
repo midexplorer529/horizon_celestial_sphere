@@ -1,0 +1,5 @@
+% equatorial_celestial_sphere fonksiyonu
+function equatorial_celestial_sphere(declination,right_ascension)
+create_sphere_equatorial
+object_on_sphere_equatorial(declination,right_ascension)
+end
