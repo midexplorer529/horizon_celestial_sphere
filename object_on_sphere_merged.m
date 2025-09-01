@@ -9,6 +9,6 @@ modified = 180 - hour_angle;
 
 plot3(x_rot,y_rot,z_rot,"bo",MarkerFaceColor="auto",LineWidth=2)
 text(x_rot,y_rot,z_rot," δ: " + declination + ", Hour Angle: " + hour_angle)
+
 plot_projections_merged(latitude,declination)
-[a,AW] = cartesian_to_spherical(x_rot,y_rot,z_rot)
 end
