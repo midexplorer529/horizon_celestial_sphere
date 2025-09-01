@@ -1,0 +1,7 @@
+% object_on_sphere_merged fonksiyonu
+function object_on_sphere_merged(latitude,declination,right_)
+[x, y, z] = spherical_to_cartesian(declination,azimuth);
+plot3(x,y,z,"bo",MarkerFaceColor="auto",LineWidth=2)
+text(x,y,z," a: " + declination + " AW: " + azimuth)
+plot_projections_horizon(declination,azimuth)
+end

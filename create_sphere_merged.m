@@ -61,6 +61,8 @@ alt_ticks = -90:30:90;
 z_ticks = 90 * sind(alt_ticks);
 set(gca, 'ZTick', z_ticks, 'ZTickLabel', alt_ticks);
 set(gca, 'XTick', [], 'YTick', []);
+xlabel("X")
+ylabel("Y")
 
 axis([-100 100 -100 100 -100 100])
 
